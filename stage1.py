@@ -21,7 +21,7 @@ def getAlarms():
 
 
 # retreive Alarms
-# getAlarms()
+ getAlarms()
 
 
 def getPhysicalInfra():
@@ -55,7 +55,7 @@ def getPhysicalInfra():
 
 
 # retreive physical infrastructure summary
-# getPhysicalInfra()
+ getPhysicalInfra()
 
 
 # Hardware Compatibility List
@@ -70,7 +70,7 @@ def getHCL():
         print("-------------------------")
 
 
-# getHCL()
+ getHCL()
 
 
 # retreive kubernetes clusters running
@@ -84,7 +84,7 @@ def getkubernetes():
         print("-------------------------")
 
 
-# getkubernetes()
+ getkubernetes()
 
 # GET all kubernetes deployments on the cluster
 
