@@ -8,10 +8,6 @@ auth = IntersightAuth(secret_key_filename=config['INTERSIGHT_CERT'],
 
 BASE_URL = 'https://www.intersight.com/api/v1'
 
-url = f"{BASE_URL}/cond/Alarms"
-
-response = requests.get(url, auth=auth)
-
 # retreive ntp policies
 ntp_url = f"{BASE_URL}/ntp/Policies"
 headers = {
